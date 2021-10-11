@@ -1,15 +1,12 @@
-import { Grid, Typography, useTheme, Button } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Fade from "react-reveal/Fade";
 import darkBg from "assets/image/dark-bg.jpg";
-// import BusinessBoomMockup from "assets/image/business-boom-mockup.png";
 import BusinessBoomMockup from "assets/image/mockup3.png";
 import CoolButton from "components/others/CoolButton";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function HomePage() {
-  const theme = useTheme();
-
   return (
     <Box
       sx={{

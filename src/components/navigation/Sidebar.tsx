@@ -8,8 +8,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
-import { grey, indigo } from "@mui/material/colors";
+import { grey } from "@mui/material/colors";
 import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
 import navOptions from "data/navOptions";
 

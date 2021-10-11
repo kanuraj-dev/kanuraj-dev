@@ -1,5 +1,5 @@
 import Button, { ButtonProps } from "@mui/material/Button";
-import { styled, Theme } from "@mui/system";
+import { styled } from "@mui/system";
 
 const CoolButton = styled(
   Button,

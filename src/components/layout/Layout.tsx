@@ -1,9 +1,9 @@
 import * as React from "react";
-import { styled, useTheme } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Topbar from "components/navigation/Topbar";
-import Sidebar, { DrawerHeader } from "components/navigation/Sidebar";
+import Sidebar from "components/navigation/Sidebar";
 
 const drawerWidth = 240;
 

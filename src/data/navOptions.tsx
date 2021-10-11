@@ -1,5 +1,5 @@
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
-import TelegramIcon from "@mui/icons-material/Telegram";
+// import TelegramIcon from "@mui/icons-material/Telegram";
 import MailIcon from "@mui/icons-material/Mail";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 

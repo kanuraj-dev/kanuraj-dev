@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Topbar from "components/navigation/Topbar";
 import Sidebar from "components/navigation/Sidebar";
+import darkBg from "assets/image/bubble-animated-background.svg";
 
 const drawerWidth = 240;
 
@@ -32,7 +33,12 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ theme, colorMode, children }: LayoutProps) {
+export default function Layout({
+  theme,
+  colorMode,
+  children,
+  ...props
+}: LayoutProps) {
   const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
@@ -44,23 +50,42 @@ export default function Layout({ theme, colorMode, children }: LayoutProps) {
   };
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <Topbar
-        open={open}
-        theme={theme}
-        colorMode={colorMode}
-        handleDrawerOpen={handleDrawerOpen}
-      />
-      <Sidebar
-        open={open}
-        theme={theme}
-        handleDrawerClose={handleDrawerClose}
-      />
-      <Main open={open}>
-        {/* <DrawerHeader /> */}
-        {children}
-      </Main>
-    </Box>
+    <div
+      style={{
+        backgroundImage:
+          theme.palette.mode === "dark"
+            ? "linear-gradient(-90deg, rgb(2, 28, 53) 0%, rgb(12, 19, 41) 0%, rgb(0, 18, 39) 42.86%)"
+            : "linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%)",
+      }}
+    >
+      <Box
+        sx={{
+          height: "400vh",
+          display: "flex",
+          minHeight: "100vh",
+          backgroundImage: `url('${darkBg}')`,
+          backgroundAttachment: "fixed",
+          backgroundSize: "cover",
+        }}
+        {...props}
+      >
+        <CssBaseline />
+        <Topbar
+          open={open}
+          theme={theme}
+          colorMode={colorMode}
+          handleDrawerOpen={handleDrawerOpen}
+        />
+        <Sidebar
+          open={open}
+          theme={theme}
+          handleDrawerClose={handleDrawerClose}
+        />
+        <Main open={open}>
+          {/* <DrawerHeader /> */}
+          {children}
+        </Main>
+      </Box>
+    </div>
   );
 }

@@ -6,7 +6,9 @@
 
 body,
 html {
-  height: 500vh;
+  background-image: url("assets/image/bubble-animated-background.svg");
+  background-size: cover;
+  background-attachment: fixed;
   font-family: "Red Hat Display";
   scroll-behavior: smooth;
 }

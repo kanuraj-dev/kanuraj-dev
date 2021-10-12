@@ -33,7 +33,12 @@ const AppBar = styled(MuiAppBar, {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
   }),
-  background: isScrolled ? "" : "transparent",
+  color: theme.palette.mode === "light" ? "#111" : "",
+  background: isScrolled
+    ? theme.palette.mode === "light"
+      ? "#f1dfd1"
+      : ""
+    : "transparent",
   ...(open && {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: `${drawerWidth}px`,
@@ -99,7 +104,7 @@ const NavLink = styled(
 }));
 
 function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
-  const isLG = useMediaQuery(theme.breakpoints.up("md"));
+  const isLG = useMediaQuery(theme.breakpoints.up("lg"));
   const isScrolled = useScrollTrigger({
     threshold: 500,
   });
@@ -120,6 +125,7 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
         )}
         <AppLogo
           height="50"
+          dark={theme.palette.mode === "light"}
           style={{
             objectFit: "contain",
             marginLeft: isLG ? "6vw" : 0,
@@ -132,7 +138,14 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
           component="div"
           sx={{ flexGrow: 1, fontWeight: 600 }}
         >
-          Webby<span style={{ color: "#ffeb3b" }}>Wolf</span>
+          Webby
+          <span
+            style={{
+              color: theme.palette.mode === "dark" ? "#ffeb3b" : "#ff6347",
+            }}
+          >
+            Wolf
+          </span>
         </Typography>
 
         {isLG &&

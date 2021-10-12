@@ -1,12 +1,16 @@
 import Button, { ButtonProps } from "@mui/material/Button";
 import { styled } from "@mui/system";
 
-const CoolButton = styled(
-  Button,
-  {}
-)<ButtonProps>(({ theme }) => ({
-  width: 200,
-  height: 60,
+interface CoolButtonProps extends ButtonProps {
+  small?: boolean;
+}
+
+const CoolButton = styled(Button, {
+  shouldForwardProp: (prop) => prop !== "small",
+})<CoolButtonProps>(({ theme, small }) => ({
+  width: small ? 160 : 200,
+  height: small ? 40 : 60,
+  fontSize: small ? 12 : "",
   textAlign: "center",
   textTransform: "uppercase",
   fontWeight: 600,

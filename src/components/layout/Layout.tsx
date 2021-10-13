@@ -60,7 +60,6 @@ export default function Layout({
     >
       <Box
         sx={{
-          height: "400vh",
           display: "flex",
           minHeight: "100vh",
           backgroundImage: `url('${darkBg}')`,

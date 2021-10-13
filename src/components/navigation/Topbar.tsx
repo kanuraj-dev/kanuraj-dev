@@ -107,6 +107,7 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
   const isScrolled = useScrollTrigger({
     threshold: 400,
+    disableHysteresis: true,
   });
 
   return (

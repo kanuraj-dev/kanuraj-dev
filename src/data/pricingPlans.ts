@@ -1,3 +1,9 @@
+export type PricingDataType = {
+  title: string;
+  amount: number;
+  features: Array<string>;
+};
+
 const pricingPlans = [
   {
     title: "Standard Plan",

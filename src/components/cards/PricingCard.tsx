@@ -7,14 +7,9 @@ import {
   Divider,
   Typography,
 } from "@mui/material";
+import { PricingDataType } from "data/pricingPlans";
 
-const WhatsappLink = "https://wa.link/1k1mga";
-
-type PricingDataType = {
-  title: string;
-  amount: number;
-  features: Array<string>;
-};
+const WhatsappLink = "https://wa.link/o285au";
 
 interface PricingCardProps {
   data: PricingDataType;

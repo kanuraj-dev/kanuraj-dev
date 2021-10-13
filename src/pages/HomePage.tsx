@@ -1,5 +1,6 @@
 import MainBanner from "components/sections/MainBanner";
 import OurServices from "components/sections/OurServices";
+import Portfolio from "components/sections/Portfolio";
 import PricingSection from "components/sections/PricingSection";
 
 export default function HomePage() {
@@ -8,6 +9,7 @@ export default function HomePage() {
       <MainBanner />
       <OurServices />
       <PricingSection />
+      <Portfolio />
     </div>
   );
 }

@@ -2,7 +2,6 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { useTheme, useMediaQuery } from "@mui/material";
-import ServiceCard from "components/cards/ServiceCard";
 import Fade from "react-reveal/Fade";
 import PricingCard from "components/cards/PricingCard";
 import pricingPlans from "data/pricingPlans";

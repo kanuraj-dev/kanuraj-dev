@@ -1,3 +1,4 @@
+import ContactUs from "components/sections/ContactUs";
 import MainBanner from "components/sections/MainBanner";
 import OurServices from "components/sections/OurServices";
 import Portfolio from "components/sections/Portfolio";
@@ -10,6 +11,7 @@ export default function HomePage() {
       <OurServices />
       <PricingSection />
       <Portfolio />
+      <ContactUs />
     </div>
   );
 }

@@ -36,7 +36,7 @@ const AppBar = styled(MuiAppBar, {
   color: theme.palette.mode === "light" ? "#111" : "",
   background: isScrolled
     ? theme.palette.mode === "light"
-      ? "#f1dfd1"
+      ? "#fff"
       : ""
     : "transparent",
   ...(open && {
@@ -106,7 +106,7 @@ const NavLink = styled(
 function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
   const isScrolled = useScrollTrigger({
-    threshold: 500,
+    threshold: 400,
   });
 
   return (

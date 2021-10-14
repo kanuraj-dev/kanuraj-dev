@@ -4,4 +4,9 @@ import theme from "constants/theme";
 declare global {
   type Theme = typeof theme;
 }
-declare module "react-reveal";
+
+declare module "@mui/material/styles" {
+  interface BreakpointOverrides {
+    xxl: true; // adds the `mobile` breakpoint
+  }
+}

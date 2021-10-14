@@ -26,10 +26,11 @@ function Root() {
         breakpoints: {
           values: {
             xs: 0,
-            sm: 500,
+            sm: 576,
             md: 768,
-            lg: 1024,
-            xl: 1440,
+            lg: 992,
+            xl: 1200,
+            xxl: 1600,
           },
         },
         typography: {

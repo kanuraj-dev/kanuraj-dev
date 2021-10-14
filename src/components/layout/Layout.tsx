@@ -12,6 +12,7 @@ const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
   open?: boolean;
 }>(({ theme, open }) => ({
   flexGrow: 1,
+  width: "100vw",
   padding: theme.spacing(0),
   transition: theme.transitions.create("margin", {
     easing: theme.transitions.easing.sharp,

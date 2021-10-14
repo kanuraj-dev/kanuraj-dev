@@ -7,13 +7,15 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function MainBanner() {
   const theme = useTheme();
+  const isXL = useMediaQuery(theme.breakpoints.up("xl"));
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
+  const isMD = useMediaQuery(theme.breakpoints.up("sm"));
 
   return (
     <Box
       sx={{
-        height: isLG ? "90vh" : "100vh",
-        paddingTop: !isLG ? "30px" : "",
+        minHeight: isLG ? "90vh" : "100vh",
+        paddingTop: !isMD ? "30px" : "",
       }}
     >
       <Grid
@@ -21,10 +23,12 @@ export default function MainBanner() {
         alignItems="center"
         justifyContent="center"
         flexDirection={isLG ? "row" : "column"}
-        height="100%"
+        minHeight="inherit"
       >
         <Grid
           item
+          xs={11}
+          sm={10}
           lg={5}
           sx={{
             alignItems: "center",
@@ -33,10 +37,18 @@ export default function MainBanner() {
           }}
         >
           <Fade left delay={500}>
-            <Typography variant={isLG ? "h3" : "h5"} fontWeight={700} mb={1}>
+            <Typography
+              variant={isXL ? "h3" : isMD ? "h4" : "h5"}
+              fontWeight={700}
+              mb={1}
+            >
               Hey Champion,
             </Typography>
-            <Typography variant={isLG ? "h4" : "h6"} fontWeight={600} mb={4}>
+            <Typography
+              variant={isXL ? "h4" : isMD ? "h5" : "h6"}
+              fontWeight={600}
+              mb={4}
+            >
               Why stay behind in this digital world, Lets take your business
               online
             </Typography>
@@ -45,7 +57,7 @@ export default function MainBanner() {
             </CoolButton>
           </Fade>
         </Grid>
-        <Grid item lg={6} justifyContent="center" textAlign="center">
+        <Grid item sm={8} lg={6} justifyContent="center" textAlign="center">
           <Fade bottom>
             <img
               src={BusinessBoomMockup}

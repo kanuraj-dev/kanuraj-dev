@@ -11,10 +11,10 @@ export default function ContactUs() {
 
   return (
     <Paper
+      id="contact-us"
       sx={{
         py: 5,
         px: 3,
-        minHeight: "100vh",
         background: "transparent",
       }}
     >

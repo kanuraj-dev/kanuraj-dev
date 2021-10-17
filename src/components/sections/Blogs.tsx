@@ -2,20 +2,21 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import { useTheme, useMediaQuery } from "@mui/material";
-import ServiceCard from "components/cards/ServiceCard";
 import Fade from "react-reveal/Fade";
+import BlogCard from "components/cards/BlogCard";
+import blogsData from "data/blogsData";
 
-export default function OurServices() {
+export default function Blogs() {
   const theme = useTheme();
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
 
   return (
     <Paper
-      id="our-services"
+      id="blogs"
       sx={{
         py: 5,
         px: 3,
-        background: theme.palette.mode === "dark" ? "#0c0c0c" : "#f8f8f8",
+        background: "transparent",
       }}
     >
       <Fade bottom>
@@ -24,16 +25,15 @@ export default function OurServices() {
           textAlign="center"
           fontWeight={600}
         >
-          Our Services
+          Blogs
         </Typography>
       </Fade>
       <Grid
         container
-        lg={10}
+        lg={11}
         rowSpacing={3}
         spacing={{ md: 3 }}
         justifyContent="center"
-        alignItems="center"
         sx={{
           py: 5,
           [theme.breakpoints.up("lg")]: {
@@ -41,10 +41,10 @@ export default function OurServices() {
           },
         }}
       >
-        {[1, 2, 3, 4, 5, 6].map((service, index) => (
-          <Grid item xs={12} md={6} lg={4}>
+        {blogsData.map((blog, index) => (
+          <Grid item md={12} lg={6} xl={4}>
             <Fade bottom delay={index * 200}>
-              <ServiceCard />
+              <BlogCard data={blog} />
             </Fade>
           </Grid>
         ))}

@@ -12,10 +12,10 @@ export default function PricingSection() {
 
   return (
     <Paper
+      id="pricing"
       sx={{
         py: 5,
         px: 3,
-        minHeight: "100vh",
         background: "transparent",
       }}
     >

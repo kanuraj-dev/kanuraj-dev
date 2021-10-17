@@ -1,17 +1,23 @@
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
-// import TelegramIcon from "@mui/icons-material/Telegram";
 import MailIcon from "@mui/icons-material/Mail";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
+import BackupTableIcon from "@mui/icons-material/BackupTable";
+import LaptopChromebookIcon from "@mui/icons-material/LaptopChromebook";
 
 const navOptions = [
   {
     icon: <HomeRepairServiceIcon />,
-    to: "/our-services",
+    to: "services#our-services",
     label: "Services",
   },
-  { icon: <LocalOfferIcon />, to: "/pricing", label: "Pricing" },
-  // { icon: <TelegramIcon />, to: "/about-us", label: "About Us" },
-  { icon: <MailIcon />, to: "/contact-us", label: "Contact" },
+  { icon: <LocalOfferIcon />, to: "pricing-plans#pricing", label: "Pricing" },
+  { icon: <MailIcon />, to: "contact#contact-us", label: "Contact" },
+  {
+    icon: <BackupTableIcon />,
+    to: "our-portfolio#portfolio",
+    label: "Portfolio",
+  },
+  { icon: <LaptopChromebookIcon />, to: "blogs#blogs", label: "Blogs" },
 ];
 
 export default navOptions;

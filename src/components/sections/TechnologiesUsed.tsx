@@ -13,10 +13,10 @@ export default function TechnologiesUsed() {
 
   return (
     <Paper
+      id="technoligies-used"
       sx={{
         py: 5,
         px: 3,
-        minHeight: "100vh",
         background: theme.palette.mode === "dark" ? "#0c0c0c" : "#f8f8f8",
       }}
     >

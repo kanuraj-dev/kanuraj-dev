@@ -150,9 +150,18 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
         </Typography>
 
         {isLG &&
-          navOptions.map((option) => (
-            <NavLink to={option.to} activeClassName="activeNav">
-              <NavButton startIcon={option.icon} color="inherit" size="large">
+          navOptions.slice(0, 3).map((option) => (
+            <NavLink
+              to={option.to}
+              href={option.to}
+              activeClassName="activeNav"
+            >
+              <NavButton
+                href={option.to}
+                startIcon={option.icon}
+                color="inherit"
+                size="large"
+              >
                 {option.label}
               </NavButton>
             </NavLink>

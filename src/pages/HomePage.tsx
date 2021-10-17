@@ -4,6 +4,7 @@ import MainBanner from "components/sections/MainBanner";
 import OurServices from "components/sections/OurServices";
 import Portfolio from "components/sections/Portfolio";
 import PricingSection from "components/sections/PricingSection";
+import TechnologiesUsed from "components/sections/TechnologiesUsed";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <PricingSection />
       <Portfolio />
       <ContactUs />
+      <TechnologiesUsed />
       <Footer />
     </div>
   );

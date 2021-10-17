@@ -37,7 +37,9 @@ export default function Portfolio() {
         alignItems="center"
         sx={{
           py: 5,
-          margin: "auto !important",
+          [theme.breakpoints.up("lg")]: {
+            margin: "auto !important",
+          },
         }}
       >
         {portfolioData.map((portfolio, index) => (

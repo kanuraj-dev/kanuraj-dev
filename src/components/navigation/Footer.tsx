@@ -19,7 +19,19 @@ export default function Footer() {
     >
       <footer>
         <Grid container rowSpacing={2} justifyContent="center">
-          <Grid item xs={6} md={3} display="flex" alignItems="center">
+          <Grid
+            item
+            xs={10}
+            md={3}
+            display="flex"
+            alignItems="center"
+            sx={{
+              [theme.breakpoints.down("md")]: {
+                display: "flex",
+                justifyContent: "center",
+              },
+            }}
+          >
             <AppLogo
               height="50"
               dark={theme.palette.mode === "light"}
@@ -31,7 +43,12 @@ export default function Footer() {
             <Typography
               variant="h5"
               component="div"
-              sx={{ flexGrow: 1, fontWeight: 600 }}
+              sx={{
+                fontWeight: 600,
+                [theme.breakpoints.up("md")]: {
+                  flexGrow: 1,
+                },
+              }}
             >
               Webby
               <span
@@ -45,11 +62,14 @@ export default function Footer() {
           </Grid>
           <Grid
             item
-            xs={6}
+            xs={10}
             md={3}
             sx={{
               display: "flex",
               justifyContent: "flex-end",
+              [theme.breakpoints.down("md")]: {
+                justifyContent: "center",
+              },
             }}
           >
             <Button

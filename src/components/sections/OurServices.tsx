@@ -36,7 +36,9 @@ export default function OurServices() {
         alignItems="center"
         sx={{
           py: 5,
-          margin: "auto !important",
+          [theme.breakpoints.up("lg")]: {
+            margin: "auto !important",
+          },
         }}
       >
         {[1, 2, 3, 4, 5, 6].map((service, index) => (

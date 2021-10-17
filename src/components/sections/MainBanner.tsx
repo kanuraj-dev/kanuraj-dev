@@ -14,8 +14,7 @@ export default function MainBanner() {
   return (
     <Box
       sx={{
-        minHeight: isLG ? "90vh" : "100vh",
-        paddingTop: !isMD ? "30px" : "",
+        minHeight: isLG ? "90vh" : "95vh",
       }}
     >
       <Grid

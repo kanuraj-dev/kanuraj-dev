@@ -8,8 +8,8 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import Link, { LinkProps } from "@mui/material/Link";
 import { grey } from "@mui/material/colors";
-import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
 import navOptions from "data/navOptions";
 
 const drawerWidth = 240;
@@ -24,9 +24,9 @@ export const DrawerHeader = styled("div")(({ theme }) => ({
 }));
 
 const NavLink = styled(
-  RouterNavLink,
+  Link,
   {}
-)<NavLinkProps>(({ theme }) => ({
+)<LinkProps>(({ theme }) => ({
   width: 150,
   color: "inherit",
   textDecoration: "none",
@@ -70,12 +70,7 @@ export default function Sidebar({
       <Divider />
       <List>
         {navOptions.map((option, index) => (
-          <NavLink
-            to={option.to}
-            activeStyle={{
-              background: "rgba(255,255,255,0.15)",
-            }}
-          >
+          <NavLink href={option.to} onClick={handleDrawerClose}>
             <ListItem
               button
               key={option.label}

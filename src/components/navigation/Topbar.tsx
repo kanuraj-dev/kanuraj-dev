@@ -7,10 +7,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import Button, { ButtonProps } from "@mui/material/Button";
-import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
+import Link, { LinkProps } from "@mui/material/Link";
 import navOptions from "data/navOptions";
 import AppLogo from "components/others/AppLogo";
 import { useMediaQuery, useScrollTrigger } from "@mui/material";
+import NavbarExtraMenu from "components/others/NavbarExtraMenu";
 
 const drawerWidth = 240;
 
@@ -39,14 +40,6 @@ const AppBar = styled(MuiAppBar, {
       ? "#fff"
       : ""
     : "transparent",
-  ...(open && {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: `${drawerWidth}px`,
-    transition: theme.transitions.create(["margin", "width"], {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-  }),
   [theme.breakpoints.up("md")]: {
     "& .MuiToolbar-root": {
       paddingTop: "2vh",
@@ -95,9 +88,9 @@ const NavButton = styled(
 }));
 
 const NavLink = styled(
-  RouterNavLink,
+  Link,
   {}
-)<NavLinkProps>(({ theme }) => ({
+)<LinkProps>(({ theme }) => ({
   width: 150,
   color: "inherit",
   textDecoration: "none",
@@ -111,7 +104,7 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
   });
 
   return (
-    <AppBar position="fixed" open={open} isScrolled={isScrolled}>
+    <AppBar position="static" open={open} isScrolled={isScrolled}>
       <Toolbar>
         {!isLG && (
           <IconButton
@@ -119,7 +112,7 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
-            sx={{ mr: 2, ...(open && { display: "none" }) }}
+            sx={{ mr: 2 }}
           >
             <MenuIcon />
           </IconButton>
@@ -152,9 +145,10 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
         {isLG &&
           navOptions.slice(0, 3).map((option) => (
             <NavLink
-              to={option.to}
               href={option.to}
-              activeClassName="activeNav"
+              className={
+                window.location.pathname === option.to ? "activeNav" : ""
+              }
             >
               <NavButton
                 href={option.to}
@@ -166,6 +160,8 @@ function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
               </NavButton>
             </NavLink>
           ))}
+
+        {isLG && <NavbarExtraMenu navOptions={navOptions.slice(3)} />}
 
         <IconButton
           sx={{ ml: 1 }}

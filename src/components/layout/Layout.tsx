@@ -11,20 +11,10 @@ const drawerWidth = 240;
 const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
   open?: boolean;
 }>(({ theme, open }) => ({
-  flexGrow: 1,
-  width: "100vw",
-  padding: theme.spacing(0),
+  width: "100%",
   transition: theme.transitions.create("margin", {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
-  }),
-  marginLeft: `-${drawerWidth}px`,
-  ...(open && {
-    transition: theme.transitions.create("margin", {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginLeft: 0,
   }),
 }));
 
@@ -61,8 +51,10 @@ export default function Layout({
     >
       <Box
         sx={{
+          height: "100vh",
+          overflow:'hidden',
           display: "flex",
-          minHeight: "100vh",
+          flexDirection:'column',
           backgroundImage: `url('${darkBg}')`,
           backgroundAttachment: "fixed",
           backgroundSize: "cover",
@@ -81,7 +73,11 @@ export default function Layout({
           theme={theme}
           handleDrawerClose={handleDrawerClose}
         />
-        <Main open={open}>
+        <Main open={open} sx={{
+              flex: 1,
+              overflow: 'auto',
+          
+        }}>
           {/* <DrawerHeader /> */}
           {children}
         </Main>

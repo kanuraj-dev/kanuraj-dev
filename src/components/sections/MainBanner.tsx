@@ -51,7 +51,11 @@ export default function MainBanner() {
               Why stay behind in this digital world, Lets take your business
               online
             </Typography>
-            <CoolButton small={!isLG} endIcon={<ArrowForwardIcon />}>
+            <CoolButton
+              small={!isLG}
+              endIcon={<ArrowForwardIcon />}
+              href="#contact-us"
+            >
               Connect Now
             </CoolButton>
           </Fade>

@@ -1,8 +1,8 @@
-import OnlineDhaba from "assets/image/online-dhaba.png";
-import PhotuFind from "assets/image/photufind.png";
-import ShopWorld from "assets/image/shop-world.png";
-import UrlTools from "assets/image/urltools.png";
-import SuppNotes from "assets/image/suppnotes.png";
+import OnlineDhaba from "assets/image/portfolio/online-dhaba.png";
+import PhotuFind from "assets/image/portfolio/photufind.png";
+import ShopWorld from "assets/image/portfolio/shop-world.png";
+import UrlTools from "assets/image/portfolio/urltools.png";
+import SuppNotes from "assets/image/portfolio/suppnotes.png";
 
 export type PortfolioItem = {
   title: string;

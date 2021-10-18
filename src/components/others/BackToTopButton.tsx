@@ -12,7 +12,6 @@ export default function BackToTopButton() {
   });
 
   const handleClick = (event: React.MouseEvent<HTMLDivElement>) => {
-    alert("clicked");
     const anchor = (
       (event.target as HTMLDivElement).ownerDocument || document
     ).querySelector("#back-to-top-anchor");

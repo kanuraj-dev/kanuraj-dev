@@ -77,6 +77,7 @@ export default function Footer() {
               color="secondary"
               size="large"
               endIcon={<ArrowForwardIcon />}
+              href="https://wa.link/o285au"
               sx={{
                 textTransform: "initial",
                 borderRadius: 3,

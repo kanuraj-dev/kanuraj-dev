@@ -24,6 +24,7 @@ interface TopbarProps {
   theme: any;
   open: boolean;
   colorMode: any;
+  scrollTarget: Node | undefined;
   handleDrawerOpen: () => void;
 }
 
@@ -96,9 +97,16 @@ const NavLink = styled(
   textDecoration: "none",
 }));
 
-function Topbar({ theme, colorMode, open, handleDrawerOpen }: TopbarProps) {
+function Topbar({
+  theme,
+  colorMode,
+  open,
+  handleDrawerOpen,
+  scrollTarget,
+}: TopbarProps) {
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
   const isScrolled = useScrollTrigger({
+    target: scrollTarget,
     threshold: 400,
     disableHysteresis: true,
   });

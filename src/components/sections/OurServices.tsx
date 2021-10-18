@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import { useTheme, useMediaQuery } from "@mui/material";
 import ServiceCard from "components/cards/ServiceCard";
 import Fade from "react-reveal/Fade";
+import services from "data/services";
 
 export default function OurServices() {
   const theme = useTheme();
@@ -41,10 +42,10 @@ export default function OurServices() {
           },
         }}
       >
-        {[1, 2, 3, 4, 5, 6].map((service, index) => (
+        {services.map((service, index) => (
           <Grid item xs={12} md={6} lg={4}>
             <Fade bottom delay={index * 200}>
-              <ServiceCard />
+              <ServiceCard data={service} />
             </Fade>
           </Grid>
         ))}

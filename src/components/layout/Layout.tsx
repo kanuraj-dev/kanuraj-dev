@@ -31,6 +31,7 @@ export default function Layout({
   ...props
 }: LayoutProps) {
   const [open, setOpen] = React.useState(false);
+  const [scrollTarget, setScrollTarget] = React.useState<any>(undefined);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -52,9 +53,9 @@ export default function Layout({
       <Box
         sx={{
           height: "100vh",
-          overflow:'hidden',
+          overflow: "hidden",
           display: "flex",
-          flexDirection:'column',
+          flexDirection: "column",
           backgroundImage: `url('${darkBg}')`,
           backgroundAttachment: "fixed",
           backgroundSize: "cover",
@@ -66,6 +67,7 @@ export default function Layout({
           open={open}
           theme={theme}
           colorMode={colorMode}
+          scrollTarget={scrollTarget}
           handleDrawerOpen={handleDrawerOpen}
         />
         <Sidebar
@@ -73,12 +75,15 @@ export default function Layout({
           theme={theme}
           handleDrawerClose={handleDrawerClose}
         />
-        <Main open={open} sx={{
-              flex: 1,
-              overflow: 'auto',
-          
-        }}>
-          {/* <DrawerHeader /> */}
+        <Main
+          open={open}
+          ref={(node) => node && setScrollTarget(node)}
+          sx={{
+            flex: 1,
+            overflow: "auto",
+            scrollBehavior: "smooth",
+          }}
+        >
           {children}
         </Main>
       </Box>

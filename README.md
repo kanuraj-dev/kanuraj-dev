@@ -65,9 +65,9 @@ Others...
 
 </p>
 
-  <p align="center">
+  <!-- <p align="center">
     <a href="https://visitor-badge.glitch.me/">
       <img align="center" src="https://page-views.glitch.me/badge?page_id=webbywolf.webbywolf">
     </a>
-  </p>
+  </p> -->
 </p>

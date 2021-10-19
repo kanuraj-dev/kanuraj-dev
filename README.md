@@ -58,7 +58,7 @@ Others...
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
   <p align="center">
-    <a href="https://www.instagram.com/webby.wolf/" alt="Instagram"><img width="25" src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-3-1024.png"></a>
+    <a href="https://www.instagram.com/webby.wolf/" alt="Instagram"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-1024.png"></a>
     <a href="https://www.twitter.com/WebbyWolf/" alt="Twitter"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png"></a>
 <a href="https://kanurajput.medium.com/" alt="Medium"><img width="25" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/medium_social_media_logo-1024.png"></a>
 <a href="https://webbywolf.com/" alt="My Site"><img width="25" src="https://cdn0.iconfinder.com/data/icons/simpline-mix/64/simpline_47-1024.png"></a>

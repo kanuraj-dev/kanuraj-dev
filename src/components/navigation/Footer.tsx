@@ -78,6 +78,8 @@ export default function Footer() {
               size="large"
               endIcon={<ArrowForwardIcon />}
               href="https://wa.link/o285au"
+              data-source="app-footer"
+              id="connect-now-button"
               sx={{
                 textTransform: "initial",
                 borderRadius: 3,

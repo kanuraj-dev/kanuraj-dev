@@ -14,7 +14,7 @@ import { useMediaQuery } from "@mui/material";
 const contact = {
   call: "tel:+919518760250",
   whatsapp: "https://wa.link/o285au",
-  email: "mailto:info.webbywolf@gmail.com",
+  email: "mailto:team@webbywolf.com",
 };
 
 export default function ContactUsCard() {
@@ -41,19 +41,27 @@ export default function ContactUsCard() {
               },
             }}
           >
-            <IconButton aria-label="Call" href={contact.call}>
+            <IconButton aria-label="Call" href={contact.call} id="call-button">
               <Avatar>
                 <CallIcon />
               </Avatar>
             </IconButton>
 
-            <IconButton aria-label="Whatsapp" href={contact.whatsapp}>
+            <IconButton
+              aria-label="Whatsapp"
+              href={contact.whatsapp}
+              id="whatsapp-button"
+            >
               <Avatar sx={{ bgcolor: pink[500] }}>
                 <WhatsAppIcon />
               </Avatar>
             </IconButton>
 
-            <IconButton aria-label="Email" href={contact.email}>
+            <IconButton
+              aria-label="Email"
+              href={contact.email}
+              id="email-button"
+            >
               <Avatar sx={{ bgcolor: green[500] }}>
                 <EmailIcon />
               </Avatar>

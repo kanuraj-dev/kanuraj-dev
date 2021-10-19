@@ -58,6 +58,8 @@ export default function PricingCard({ data }: PricingCardProps) {
           endIcon={<ArrowForward />}
           sx={{ textTransform: "initial" }}
           href={WhatsappLink}
+          data-source={data.title}
+          id="get-quote-button"
         >
           Get quote on Whatsapp
         </Button>

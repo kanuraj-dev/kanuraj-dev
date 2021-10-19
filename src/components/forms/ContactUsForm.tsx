@@ -40,7 +40,7 @@ export default function ContactUsForm() {
   };
 
   return (
-    <form ref={formRef} onSubmit={handleFormSubmit}>
+    <form ref={formRef} onSubmit={handleFormSubmit} id="contact-us-form">
       <Grid
         container
         spacing={2}

@@ -55,6 +55,8 @@ export default function MainBanner() {
               small={!isLG}
               endIcon={<ArrowForwardIcon />}
               href="#contact-us"
+              data-source="main-banner"
+              id="connect-now-button"
             >
               Connect Now
             </CoolButton>

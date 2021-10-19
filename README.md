@@ -1,6 +1,5 @@
-[![Webbywolf's GitHub Banner](./src/assets/image/readme-banner.png)](https://webbywolf.com)
 <a href="https://webbywolf.com">
-  <img width="100%" src="https://i.ibb.co/ZS9R0FJ/webby-wolf.png" alt="Webby's github banner" />
+  <img width="100%" src="./src/assets/image/readme-banner.png" alt="Webby's github banner" />
   </a>
 
 ### Hey there 👋

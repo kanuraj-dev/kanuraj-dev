@@ -11,7 +11,9 @@ Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#por
 <br>
 
 <!-- BLOG-POST-LIST:START -->
-
+- [How To Shorten A Url In Your React App](https://kanurajput.medium.com/how-to-shorten-a-url-in-your-react-app-most-easiest-way-2768e7ec564)
+- [Generate QR Code in your website](https://kanurajput.medium.com/how-to-easily-generate-qr-code-in-website-aa20ddd07a2f)
+- [Let’s know more about React — benefits, demand, salary & other topics](https://kanurajput.medium.com/lets-know-more-about-react-benefits-demand-salary-other-topics-816c4e57b5)
 <!-- BLOG-POST-LIST:END -->
 
 <br>

@@ -1,6 +1,6 @@
 [![Webbywolf's GitHub Banner](https://i.ibb.co/D9QGVwv/webbywolf-banner.png)](https://webbywolf.com)
 
-## Hey there 👋
+### Hey there 👋
 
 I’m webby, a mid-level full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.
 

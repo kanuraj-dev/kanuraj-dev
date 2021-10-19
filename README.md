@@ -53,16 +53,20 @@ Others...
 
 ## 📣 How about an Office quote before you go?
 
-> {office_quote}
->
-> <p>{office_character}</p>
+<hr>
+<p align="center">
+  <i>Let's connect and chat! Open to anything under the sun.</i>
 
-_Quote requested from [The Office API](https://www.officeapi.dev/)_
+  <p align="center">
+    <a href="https://twitter.com/jayehernandez_" alt="Twitter"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/twitter-fill.svg"></a>
+    <a href="https://www.linkedin.com/in/jayehernandez/" alt="Linkedin"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/linkedin-fill.svg"></a>
+    <a href="mailto:jaye@jayehernandez.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
+    <a href="https://jayehernandez.com" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
+  </p>
 
-Check back at the top of the hour for a new quote!
-
-<br>
-
-> ### Want to know how I made this README?
->
-> Check out my [tutorial](https://braydoncoyer.dev/blog/creating-a-killer-github-profile-readme-part-1/)!
+  <p align="center">
+    <a href="https://visitor-badge.glitch.me/">
+      <img align="center" src="https://page-views.glitch.me/badge?page_id=jayehernandez.jayehernandez">
+    </a>
+  </p>
+</p>

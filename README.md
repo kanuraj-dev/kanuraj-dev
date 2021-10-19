@@ -61,8 +61,8 @@ Others...
     <a href="https://www.instagram.com/webby.wolf/" alt="Instagram"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-1024.png"></a>
     <a href="https://www.twitter.com/WebbyWolf/" alt="Twitter"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/TWITTER-1024.png"></a>
 <a href="mailto:team@webbywolf.com" alt="Twitter"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/GMAIL-1024.png"></a>
-<a href="https://kanurajput.medium.com/" alt="Medium"><img width="25" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/medium_social_media_logo-1024.png"></a>
-<a href="https://webbywolf.com/" alt="My Site"><img width="25" src="https://cdn0.iconfinder.com/data/icons/simpline-mix/64/simpline_47-1024.png"></a>
+<a href="https://kanurajput.medium.com/" alt="Medium"><img width="25" src="https://cdn1.iconfinder.com/data/icons/social-networks-15/512/medium_social_network_logo-1024.png"></a>
+<a href="https://webbywolf.com/" alt="My Site"><img width="25" src="https://cdn3.iconfinder.com/data/icons/flat-pro-basic-set-3/32/internet-gray-1024.png"></a>
 
 </p>
 

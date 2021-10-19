@@ -48,6 +48,7 @@ Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#por
 ![](https://img.shields.io/badge/Code-NodeJs-informational?style=flat&logo=nodedotjs&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Code-MongoDB-informational?style=flat&logo=MongoDB&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-Others-informational?style=flat&logoColor=white&color=4AB197)
 Others... 
 <br>
 

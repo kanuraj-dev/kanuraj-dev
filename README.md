@@ -1,4 +1,4 @@
-[![Webbywolf's GitHub Banner](https://i.ibb.co/D9QGVwv/webbywolf-banner.png)](https://webbywolf.com)
+[![Webbywolf's GitHub Banner](https://i.ibb.co/QJWsQgR/webby-wolf.png)](https://webbywolf.com)
 
 ### Hey there 👋
 

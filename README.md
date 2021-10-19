@@ -1,6 +1,6 @@
-[![Webbywolf's GitHub Banner](https://i.ibb.co/QJWsQgR/webby-wolf.png)](https://webbywolf.com)
+[![Webbywolf's GitHub Banner](https://i.ibb.co/ZS9R0FJ/webby-wolf.png)](https://webbywolf.com)
 <a href="https://webbywolf.com">
-  <img width="100%" src="https://i.ibb.co/QJWsQgR/webby-wolf.png" alt="Webby's github banner" />
+  <img width="100%" src="https://i.ibb.co/ZS9R0FJ/webby-wolf.png" alt="Webby's github banner" />
   </a>
 
 ### Hey there 👋

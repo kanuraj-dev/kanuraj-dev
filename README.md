@@ -25,7 +25,8 @@ Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#por
 
 <br>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=webbywolf&show_icons=true&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=webbywolf&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=webbywolf)](https://github.com/anuraghazra/github-readme-stats)
 
 <br>
 <br>

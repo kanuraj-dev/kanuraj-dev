@@ -1,8 +1,8 @@
 [![Webbywolf's GitHub Banner](https://i.ibb.co/D9QGVwv/webbywolf-banner.png)](https://webbywolf.com)
 
-Hey there 👋
+##.Hey there 👋
 
-I’m Kanuraj, a mid-level full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.
+I’m webby, a mid-level full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.
 
 Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#portfolio)
 
@@ -50,8 +50,6 @@ Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#por
 ![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
 Others... 
 <br>
-
-## 📣 How about an Office quote before you go?
 
 <hr>
 <p align="center">

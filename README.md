@@ -58,11 +58,12 @@ Others...
   <i>Let's connect and chat! Open to anything under the sun.</i>
 
   <p align="center">
-    <a href="https://twitter.com/jayehernandez_" alt="Twitter"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/twitter-fill.svg"></a>
-    <a href="https://www.instagram.com/webby.wolf/" alt="Instagram"><img width="40" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png"></a>
-    <a href="mailto:jaye@jayehernandez.com" alt="Contact me"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/mail-fill.svg"></a>
-    <a href="https://jayehernandez.com" alt="My site"><img src="https://raw.githubusercontent.com/jayehernandez/jayehernandez/3f5402efef9a0ae89211a6e04609558e862ca616/readme/external-link-line.svg"></a>
-  </p>
+    <a href="https://www.instagram.com/webby.wolf/" alt="Instagram"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-1024.png"></a>
+    <a href="https://www.twitter.com/WebbyWolf/" alt="Twitter"><img width="25" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter2_colored_svg-1024.png"></a>
+<a href="https://kanurajput.medium.com/" alt="Medium"><img width="25" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/medium_social_media_logo-1024.png"></a>
+<a href="https://webbywolf.com/" alt="My Site"><img width="25" src="https://cdn0.iconfinder.com/data/icons/simpline-mix/64/simpline_47-1024.png"></a>
+
+</p>
 
   <p align="center">
     <a href="https://visitor-badge.glitch.me/">

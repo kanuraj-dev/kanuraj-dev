@@ -1,5 +1,12 @@
 const blogsData = [
   {
+    title: "The Story behind WebbyWolf — started by 10th dropout",
+    content:
+      "Where it all starts? It all started when Karan Singh Rajput (me) from Maharashtra was sitting at the terrace scrolling Instagram …",
+    image: "https://miro.medium.com/max/1400/1*PGrsIUekri9Csln6iWv6Jw.png",
+    url: "https://medium.com/@webbywolf/the-story-behind-webbywolf-a-company-started-by-10th-dropout-16-y-o-boy-2ea255fc7541",
+  },
+  {
     title: "How To Shorten A Url In Your React App?",
     content:
       "Are you also tired of the long URLs? Let’s know how to shorten a Url easily in your React App with bit.ly services …",

@@ -11,6 +11,10 @@ export default function MainBanner() {
   const isLG = useMediaQuery(theme.breakpoints.up("lg"));
   const isMD = useMediaQuery(theme.breakpoints.up("sm"));
 
+  const handleConnectNowClick = () => {
+    document.getElementById("contact-us")?.scrollIntoView();
+  };
+
   return (
     <Box
       sx={{
@@ -54,6 +58,7 @@ export default function MainBanner() {
             <CoolButton
               small={!isLG}
               endIcon={<ArrowForwardIcon />}
+              onClick={handleConnectNowClick}
               href="#contact-us"
               data-source="main-banner"
               id="connect-now-button"

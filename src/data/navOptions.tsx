@@ -16,13 +16,13 @@ const navOptions: navOptionType[] = [
     to: "#our-services",
     label: "Services",
   },
-  { icon: <LocalOfferIcon />, to: "#pricing", label: "Pricing" },
+  { icon: <BackupTableIcon />, to: "#portfolio", label: "Portfolio" },
   { icon: <MailIcon />, to: "#contact-us", label: "Contact" },
-  {
-    icon: <BackupTableIcon />,
-    to: "#portfolio",
-    label: "Portfolio",
-  },
+//   {
+//     icon: <BackupTableIcon />,
+//     to: "#portfolio",
+//     label: "Portfolio",
+//   },
   { icon: <LaptopChromebookIcon />, to: "#blogs", label: "Blogs" },
 ];
 

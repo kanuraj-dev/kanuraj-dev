@@ -14,7 +14,7 @@ export default function HomePage() {
       <div id="back-to-top-anchor"></div>
       <MainBanner />
       <OurServices />
-      <PricingSection />
+<!--       <PricingSection /> -->
       <Portfolio />
       <ContactUs />
       <TechnologiesUsed />

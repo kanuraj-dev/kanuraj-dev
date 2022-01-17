@@ -3,6 +3,7 @@ import PhotuFind from "assets/image/portfolio/photufind.png";
 import ShopWorld from "assets/image/portfolio/shop-world.png";
 import UrlTools from "assets/image/portfolio/urltools.png";
 import SuppNotes from "assets/image/portfolio/suppnotes.png";
+import Brighterblu from "assets/image/portfolio/brighterblu.png";
 
 export type PortfolioItem = {
   title: string;
@@ -13,10 +14,11 @@ export type PortfolioItem = {
 
 const portfolioData: Array<PortfolioItem> = [
   {
-    title: "Online Dhaba",
-    description: "Delicious Online Food Ordering WebApp, just like its name",
-    url: "https://online-dhaba-101.web.app/",
-    image: OnlineDhaba,
+    title: "Brighter Blu",
+    description:
+      "Have a track of your mood and improve it with the help of Brighterblu",
+    url: "https://www.brighterblu.com/",
+    image: Brighterblu,
   },
   {
     title: "Photu Find",
@@ -26,10 +28,10 @@ const portfolioData: Array<PortfolioItem> = [
     image: PhotuFind,
   },
   {
-    title: "Shop World",
-    description: "Modern Design WebApp for Online Shopping Site",
-    url: "https://shopworld18.vercel.app/",
-    image: ShopWorld,
+    title: "Online Dhaba",
+    description: "Delicious Online Food Ordering WebApp, just like its name",
+    url: "https://online-dhaba-101.web.app/",
+    image: OnlineDhaba,
   },
   {
     title: "Url Tools",
@@ -37,6 +39,12 @@ const portfolioData: Array<PortfolioItem> = [
     url: "https://urltools-101.web.app/",
     image: UrlTools,
   },
+  // {
+  //   title: "Shop World",
+  //   description: "Modern Design WebApp for Online Shopping Site",
+  //   url: "https://shopworld18.vercel.app/",
+  //   image: ShopWorld,
+  // },
   {
     title: "SuppNotes",
     description: "Clean & simple designed App keeping notes",

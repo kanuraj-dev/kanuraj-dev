@@ -2,6 +2,7 @@ import WebDevelopmentImg from "assets/image/services/web-development.png";
 import ResponsiveDesignImg from "assets/image/services/responsive-design.png";
 import EmailTemplateImg from "assets/image/services/email-template.png";
 import AnalyticsImg from "assets/image/services/analytics.png";
+import AppDevelopmentImg from "assets/image/services/app-development.png";
 
 export type ServiceType = {
   title: string;
@@ -13,7 +14,7 @@ const services: ServiceType[] = [
   {
     title: "Web Development",
     description:
-      "Here we help you build your online presence with eye-catching Web Apps, to grow your business.",
+      "Here we help you build your online presence with eye-catching modern Web apps, to take your business to the moon.",
     image: WebDevelopmentImg,
   },
   {
@@ -21,6 +22,12 @@ const services: ServiceType[] = [
     description:
       "High converting and individual websites that format across all devices from desktops to tablets and mobiles.",
     image: ResponsiveDesignImg,
+  },
+  {
+    title: "App Development",
+    description:
+      "Converting your existing website to an application or creating one from scratch, we got your back for both of them.",
+    image: AppDevelopmentImg,
   },
   {
     title: "Email Templates",

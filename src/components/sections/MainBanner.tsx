@@ -45,14 +45,14 @@ export default function MainBanner() {
               fontWeight={700}
               mb={1}
             >
-              Hey Champion,
+              Hey Dude,
             </Typography>
             <Typography
               variant={isXL ? "h4" : isMD ? "h5" : "h6"}
               fontWeight={600}
               mb={4}
             >
-              Why stay behind in this digital world, Lets take your business
+              Why fall behind in this digital era, Lets take your business
               online
             </Typography>
             <CoolButton

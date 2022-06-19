@@ -4,6 +4,7 @@ import ShopWorld from "assets/image/portfolio/shop-world.png";
 import UrlTools from "assets/image/portfolio/urltools.png";
 import SuppNotes from "assets/image/portfolio/suppnotes.png";
 import Brighterblu from "assets/image/portfolio/brighterblu.png";
+import Justicedenied from "assets/image/portfolio/justicedenied.png";
 
 export type PortfolioItem = {
   title: string;
@@ -14,14 +15,21 @@ export type PortfolioItem = {
 
 const portfolioData: Array<PortfolioItem> = [
   {
-    title: "Brighter Blu",
+    title: "JusticeDenied",
+    description:
+      "Together we stand, divided we fall. Lets fight the unjustice done by corrupted judges.",
+    url: "https://www.brighterblu.com/",
+    image: Justicedenied,
+  },
+  {
+    title: "BrighterBlu",
     description:
       "Have a track of your mood and improve it with the help of Brighterblu",
     url: "https://www.brighterblu.com/",
     image: Brighterblu,
   },
   {
-    title: "Photu Find",
+    title: "PhotuFind",
     description:
       "Search through Millions of images with this Clean & Simple App",
     url: "https://photufind.web.app/",
@@ -34,7 +42,7 @@ const portfolioData: Array<PortfolioItem> = [
     image: OnlineDhaba,
   },
   {
-    title: "Url Tools",
+    title: "URL Tools",
     description: "2 IN 1 App for converting link to QR code & shortening them",
     url: "https://urltools-101.web.app/",
     image: UrlTools,

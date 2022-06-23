@@ -18,7 +18,7 @@ const portfolioData: Array<PortfolioItem> = [
     title: "JusticeDenied",
     description:
       "Together we stand, divided we fall. Lets fight the unjustice done by corrupted judges.",
-    url: "https://www.brighterblu.com/",
+    url: "https://www.justicedenied.com.au/",
     image: Justicedenied,
   },
   {

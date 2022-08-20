@@ -45,26 +45,28 @@ export default function MainBanner() {
               fontWeight={700}
               mb={1}
             >
-              Hey Dude,
+              Hello there 👋
             </Typography>
             <Typography
               variant={isXL ? "h4" : isMD ? "h5" : "h6"}
               fontWeight={600}
               mb={4}
             >
-              Why fall behind in this digital era, Lets take your business
-              online
+              At webbywolf, we provide highly scalable and modern designed web
+              solutions
             </Typography>
-            <CoolButton
-              small={!isLG}
-              endIcon={<ArrowForwardIcon />}
-              onClick={handleConnectNowClick}
-              href="#contact-us"
-              data-source="main-banner"
+
+            <a
+              target="_blank"
+              href="https://www.fiverr.com/webbywolf"
               id="connect-now-button"
+              data-source="main-banner"
+              style={{ textDecoration: "none" }}
             >
-              Connect Now
-            </CoolButton>
+              <CoolButton small={!isLG} endIcon={<ArrowForwardIcon />}>
+                Fiverr Profile
+              </CoolButton>
+            </a>
           </Fade>
         </Grid>
         <Grid item sm={8} lg={6} justifyContent="center" textAlign="center">

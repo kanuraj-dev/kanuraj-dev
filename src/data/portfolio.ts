@@ -1,10 +1,16 @@
-import OnlineDhaba from "assets/image/portfolio/online-dhaba.png";
-import PhotuFind from "assets/image/portfolio/photufind.png";
-import ShopWorld from "assets/image/portfolio/shop-world.png";
-import UrlTools from "assets/image/portfolio/urltools.png";
-import SuppNotes from "assets/image/portfolio/suppnotes.png";
-import Brighterblu from "assets/image/portfolio/brighterblu.png";
-import Justicedenied from "assets/image/portfolio/justicedenied.png";
+import OnlineDhaba from "assets/image/portfolio-old/online-dhaba.png";
+import PhotuFind from "assets/image/portfolio-old/photufind.png";
+import ShopWorld from "assets/image/portfolio-old/shop-world.png";
+import UrlTools from "assets/image/portfolio-old/urltools.png";
+import SuppNotes from "assets/image/portfolio-old/suppnotes.png";
+import Brighterblu from "assets/image/portfolio-old/brighterblu.png";
+import Justicedenied from "assets/image/portfolio-old/justicedenied.png";
+
+import P1 from "assets/image/portfolio/1.png";
+import P2 from "assets/image/portfolio/2.png";
+import P3 from "assets/image/portfolio/3.png";
+import P4 from "assets/image/portfolio/4.png";
+import P5 from "assets/image/portfolio/5.png";
 
 export type PortfolioItem = {
   title: string;
@@ -12,6 +18,8 @@ export type PortfolioItem = {
   url: string;
   image: string;
 };
+
+export const portfolioImages: string[] = [P1, P2, P3, P4, P5];
 
 const portfolioData: Array<PortfolioItem> = [
   {

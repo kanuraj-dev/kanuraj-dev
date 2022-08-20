@@ -13,6 +13,7 @@ const CoolButton = styled(Button, {
   fontSize: small ? 12 : "",
   textAlign: "center",
   textTransform: "uppercase",
+  textDecoration: "none !important",
   fontWeight: 600,
   cursor: "pointer",
   color: "#fff",

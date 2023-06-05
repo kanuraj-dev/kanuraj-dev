@@ -10,6 +10,9 @@ import P9 from "assets/image/portfolio/9.png";
 import P10 from "assets/image/portfolio/10.png";
 import P11 from "assets/image/portfolio/11.png";
 import P12 from "assets/image/portfolio/12.png";
+import P13 from "assets/image/portfolio/13.png";
+import P14 from "assets/image/portfolio/14.png";
+import P15 from "assets/image/portfolio/15.png";
 
 export type PortfolioItem = {
   title: string;
@@ -34,6 +37,26 @@ const portfolioData: Array<PortfolioItem> = [
       "Created a menu web application using NextJs, NetlifyCMS, and SwiperJs.",
     url: "https://menu.ryong.de/",
     image: P2,
+  },
+  {
+    title: "Shanda Studio",
+    description:
+      "Created a tool which uses OpenAi to extract details from transcript files",
+    url: "https://shanda.studio/",
+    image: P13,
+  },
+  {
+    title: "Enk Ringsizer",
+    description:
+      "Created a tool which help to measure the size of the ring which fits you.",
+    url: "https://ringsizer.edelsteinfasser-kumar.de",
+    image: P15,
+  },
+  {
+    title: "JustScale",
+    description: "Created a marketplace of backlinks to boost your website.",
+    url: "https://app.justscale.de",
+    image: P14,
   },
   {
     title: "Alphadragon",

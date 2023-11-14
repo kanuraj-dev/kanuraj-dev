@@ -4,7 +4,7 @@
 
 ### Hey there 👋
 
-I’m Kanuraj, a mid-level full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.
+Karan Rajput: not just your average Senior Software Engineer, but a cool JavaScript wizard who's equally adept at cracking codes and jokes. The tech guru who can seamlessly transition from geeking out over algorithms to leading the charge as a CEO and CTO. 🚀💻🌟
 
 Want to know more about me? [Check out my portfolio.](https://webbywolf.com/#portfolio)
 
